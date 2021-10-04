@@ -130,6 +130,9 @@ color:#1e1a1d;
     overflow: hidden;
     box-shadow: 10px 10px 10px  #8E5572 ;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -138,7 +141,7 @@ color:#1e1a1d;
     color: #1e1a1d;
     font-family: 'Bonheur Royale', cursive;
     font-weight: 700;
-    padding:0 50px;
+   
 }
 
 
@@ -208,6 +211,7 @@ color:#1e1a1d;
     word-spacing: 15px;
     color: #1e1a1d;
     cursor: pointer;
+    z-index: 100;
 }
 
 .container2 h1::before{
@@ -291,9 +295,12 @@ color:#1e1a1d;
     background-color: #1e1a1d; display: block;
     justify-content: center;
     align-items: center;
+  
+    
 }
 
 .container3 img{
+    
     height:100vh;
     width: auto;
     position: absolute;
@@ -313,6 +320,7 @@ color:#1e1a1d;
     word-spacing: 15px;
     color: #8E5572;
     cursor: pointer;
+    z-index: 100;
 }
 
 .container3 h1::before{
@@ -338,6 +346,7 @@ color:#1e1a1d;
     justify-content: center;
     align-items: center;
     padding: 0px;
+    z-index: 100;
     
 }
 .col21{
